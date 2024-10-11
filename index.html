@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kennel Costs</title>
+    <link rel="stylesheet" href="kennel.css">
+    <script src="kennel.js" defer></script>
+</head>
+<body>
+   <header><h2>Dog Lodging Price Calculator</h2></header>
+  <form>
+    <div class="main">
+        <label for="size">Dog Size:</label><br>
+    <select name="size" id="size">
+        <option value="30.00">Small&lpar;$30/day&rpar;</option>
+        <option value="32.00">Large&lpar;$32/day&rpar;</option>
+    </select><br>
+    </div>
+    <div class="main">
+        <label for="days">Number of Days:</label> <br>
+    <input type="number" name="days" id="days"> <br>
+    </div>
+    <div class="main"><button name="calc" id="calc">Calculate Price</button></div>
+    
+    <div class="main" id="p">
+        Price: $0.00 <br>
+        </div>
+        <div class="main" id="tax">
+        Tax: $0.00 <br>
+    </div>
+    <div class="main" id="total">
+        Total: $0.00 <br>
+    </div>
+  </form>
+
+</body>
+</html>
